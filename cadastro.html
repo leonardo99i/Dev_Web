@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+</head>
+
+<body>
+    <article>
+        <fieldset>
+            <legend>Cadastro de Inscrição</legend>
+            <form action="" method="">
+                <label for="nome">Nome</label>
+                <input id="nome" type="text" name="nome" required>
+                <br>
+                <br>
+                <label for="nasc">Nascimento</label>
+                <input id="nasc" type="date" name="nasc" required>
+                <br>
+                <br>
+                <input id="masculino" type="radio" name="genero" value="masculino" required>
+                <label for="masculino">Masculino</label>
+                <br>
+                <br>
+                <input id="feminino" type="radio" name="genero" value="feminino" required>
+                <label for="feminino">Feminino</label>
+                <br>
+                <br>
+                <input id="outro" type="radio" name="genero" value="outro" required>
+                <label for="outro">Outro</label>
+                <br>
+                <br>
+                <input type="submit" value="Cadastrar">
+                <input type="reset" value="Limpar">
+            </form>
+        </fieldset>
+        <fieldset>
+            <form>
+                <legend>Contato</legend>
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" name="email" placeholder="email@email.com" required>
+            <label for="info"><h2>Informações Adicionais</h2></label>
+            <textarea name="info" id="info" rows="10" cols="30" placeholder="Digite aqui informações adicionais"></textarea>
+            <br>
+            <br>
+            <input type="submit" value="Enviar">
+            </form>
+            
+        </fieldset>
+    </article>
+</body>
+
+</html>
