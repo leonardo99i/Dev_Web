@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <article>
+        <fieldset>
+            <legend>Cadastro de inscrição</legend>
+            <form>
+                <label for="nome">Nome</label>
+                <input id="nome" type="text" name="nome" required><br><br>
+                <label for="nasc">Nascimento</label>
+                <input type="date" name="nasc"><br><br>
+                <input id="masculino" type="radio" name="genero" value="masculino" required>
+                <label for="masculino">Masculino</label>
+                <input id="feminino" type="radio" name="genero" value="feminino" required>
+                <label for="feminino">Feminino</label>
+                <input id="outro" type="radio" name="genero" value="outro" required>
+                <label for="outro">Outro</label><br><br>
+                <input type="submit" value="Cadastrar"> <input type="reset" value="Apagar">
+            </form>
+        </fieldset>
+
+        <fieldset>
+            <legend>Contato</legend>
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email"><br><br>
+            <label for="info">
+                <h1>Informações adicionais</h1>
+            </label>
+            <textarea name="info" id="info" rows="10" cols="30">
+            </textarea>
+        </fieldset>
+    </article>
+</body>
+
+</html>
